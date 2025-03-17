@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7ed496df5912ae76dc1b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_a_follow_turtle_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_a_follow_turtle_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_a_follow_turtle_pkg_uninstall-b237f04ea94e6f8fd172.json",
+					"name" : "cpp_a_follow_turtle_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_pub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_pub-7c92aac8e435faafe939.json",
+					"name" : "turtle_pub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_spawner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_spawner-4b5d320314f6539df5b7.json",
+					"name" : "turtle_spawner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-637d0760e9b62d62129b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg",
+		"source" : "/home/zsy/colcon_ws/src/cpp_a_follow_turtle_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

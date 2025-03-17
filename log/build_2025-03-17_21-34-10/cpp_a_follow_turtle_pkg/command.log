@@ -1,0 +1,6 @@
+Invoking command in '/home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zsy/colcon_ws/src/cpp_a_follow_turtle_pkg -DCMAKE_INSTALL_PREFIX=/home/zsy/colcon_ws/install/cpp_a_follow_turtle_pkg
+Invoked command in '/home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zsy/colcon_ws/src/cpp_a_follow_turtle_pkg -DCMAKE_INSTALL_PREFIX=/home/zsy/colcon_ws/install/cpp_a_follow_turtle_pkg
+Invoking command in '/home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg -- -j4 -l4
+Invoked command in '/home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg -- -j4 -l4
+Invoking command in '/home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg
+Invoked command in '/home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg

@@ -1,0 +1,11 @@
+/home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg/CMakeFiles/uninstall.dir
+/home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg/CMakeFiles/cpp_a_follow_turtle_pkg_uninstall.dir
+/home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg/CMakeFiles/turtle_spawner.dir
+/home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg/CMakeFiles/turtle_pub.dir
+/home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg/CMakeFiles/test.dir
+/home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg/CMakeFiles/edit_cache.dir
+/home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg/CMakeFiles/rebuild_cache.dir
+/home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg/CMakeFiles/list_install_components.dir
+/home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg/CMakeFiles/install.dir
+/home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg/CMakeFiles/install/local.dir
+/home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg/CMakeFiles/install/strip.dir
