@@ -29,13 +29,16 @@ endif()
 
 add_executable(turtle_spawner src/new_turtle_spawner.cpp)
 add_executable(turtle_pub src/turtles_pose_pub.cpp)
-
+add_executable(turtle2_controller src/turtle2_controller.cpp)
 
 ament_target_dependencies(turtle_spawner rclcpp turtlesim)
 ament_target_dependencies(turtle_pub rclcpp turtlesim tf2_ros geometry_msgs)
+ament_target_dependencies(turtle2_controller rclcpp tf2_ros geometry_msgs)
 
+install(TARGETS turtle_spawner turtle_pub turtle2_controller
+  DESTINATION lib/${PROJECT_NAME})
 
-
-
+install(DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}/)
 
 ament_package()
