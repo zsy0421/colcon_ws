@@ -28,9 +28,9 @@
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
 -- Found Threads: TRUE  
--- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
--- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
--- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found tf2: 0.25.11 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.11 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.11 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
 -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
 -- Found Eigen3: TRUE (found version "3.4.0") 
 -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
@@ -45,21 +45,26 @@
 -- Added test 'xmllint' to check XML markup files
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg
-[ 25%] [32mBuilding CXX object CMakeFiles/turtle_pub.dir/src/turtles_pose_pub.cpp.o[0m
+-- Build files have been written to: /home/lanqi/ros2_learning/colcon_ws/build/cpp_a_follow_turtle_pkg
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_pub.dir/src/turtles_pose_pub.cpp.o[0m
 [ 50%] [32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/new_turtle_spawner.cpp.o[0m
 [ 75%] [32m[1mLinking CXX executable turtle_spawner[0m
 [ 75%] Built target turtle_spawner
 [100%] [32m[1mLinking CXX executable turtle_pub[0m
 [100%] Built target turtle_pub
 -- Install configuration: ""
--- Installing: /home/zsy/colcon_ws/install/cpp_a_follow_turtle_pkg/lib/cpp_a_follow_turtle_pkg/turtle_spawner
--- Set runtime path of "/home/zsy/colcon_ws/install/cpp_a_follow_turtle_pkg/lib/cpp_a_follow_turtle_pkg/turtle_spawner" to ""
--- Installing: /home/zsy/colcon_ws/install/cpp_a_follow_turtle_pkg/lib/cpp_a_follow_turtle_pkg/turtle_pub
--- Set runtime path of "/home/zsy/colcon_ws/install/cpp_a_follow_turtle_pkg/lib/cpp_a_follow_turtle_pkg/turtle_pub" to ""
-[31mCMake Error at cmake_install.cmake:86 (file):
-  file INSTALL cannot find
-  "/home/zsy/colcon_ws/src/cpp_a_follow_turtle_pkg/launch": No such file or
-  directory.
-
-[0m
+-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_a_follow_turtle_pkg
+-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_a_follow_turtle_pkg
+-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/environment/path.sh
+-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/environment/path.dsv
+-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/local_setup.bash
+-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/local_setup.sh
+-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/local_setup.zsh
+-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/local_setup.dsv
+-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/package.dsv
+-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/ament_index/resource_index/packages/cpp_a_follow_turtle_pkg
+-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/cmake/cpp_a_follow_turtle_pkgConfig.cmake
+-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/cmake/cpp_a_follow_turtle_pkgConfig-version.cmake
+-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/package.xml

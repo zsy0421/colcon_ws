@@ -1,0 +1,301 @@
+[0.000000] (-) TimerEvent: {}
+[0.001445] (cpp_a_follow_turtle_pkg) JobQueued: {'identifier': 'cpp_a_follow_turtle_pkg', 'dependencies': OrderedDict()}
+[0.001524] (cpp_a_follow_turtle_pkg) JobStarted: {'identifier': 'cpp_a_follow_turtle_pkg'}
+[0.012583] (cpp_a_follow_turtle_pkg) JobProgress: {'identifier': 'cpp_a_follow_turtle_pkg', 'progress': 'cmake'}
+[0.013262] (cpp_a_follow_turtle_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/lanqi/ros2_learning/colcon_ws/src/cpp_a_follow_turtle_pkg', '-DCMAKE_INSTALL_PREFIX=/home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg'], 'cwd': '/home/lanqi/ros2_learning/colcon_ws/build/cpp_a_follow_turtle_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('onnxruntime_DIR', '/home/lanqi/.local/'), ('USER', 'lanqi'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/lanqi/.local/lib::/home/lanqi/.mujoco/bin'), ('HOME', '/home/lanqi'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1698'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=671f7644de4d54267fac103d67d90add'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lanqi'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lanqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/lanqi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lanqi-virtual-machine:@/tmp/.ICE-unix/1698,unix/lanqi-virtual-machine:/tmp/.ICE-unix/1698'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d13a9e5e_c6f6_43dc_9b68_a8fca5c4c1a1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RDYT32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lanqi/ros2_learning/colcon_ws/build/cpp_a_follow_turtle_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=671f7644de4d54267fac103d67d90add'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098896] (-) TimerEvent: {}
+[0.199753] (-) TimerEvent: {}
+[0.260614] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.301669] (-) TimerEvent: {}
+[0.382481] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.395796] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.401886] (-) TimerEvent: {}
+[0.502464] (-) TimerEvent: {}
+[0.513947] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.522475] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.523321] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.524208] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.529370] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.602754] (-) TimerEvent: {}
+[0.662183] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.669117] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.669518] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.670238] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.673862] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.703321] (-) TimerEvent: {}
+[0.804177] (-) TimerEvent: {}
+[0.877684] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.904415] (-) TimerEvent: {}
+[1.004865] (-) TimerEvent: {}
+[1.027035] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.076437] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.081912] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.091579] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.105517] (-) TimerEvent: {}
+[1.105823] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.125388] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.177931] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.180818] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.206051] (-) TimerEvent: {}
+[1.306845] (-) TimerEvent: {}
+[1.327720] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.370762] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.407372] (-) TimerEvent: {}
+[1.438749] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.449346] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.508074] (-) TimerEvent: {}
+[1.608578] (-) TimerEvent: {}
+[1.619643] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.622409] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.709175] (-) TimerEvent: {}
+[1.744102] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.744647] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.803751] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Found tf2: 0.25.11 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.809768] (-) TimerEvent: {}
+[1.833781] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.11 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.909998] (-) TimerEvent: {}
+[1.937786] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.11 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.955942] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.957800] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.957915] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.959671] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[1.976082] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.010475] (-) TimerEvent: {}
+[2.111372] (-) TimerEvent: {}
+[2.111813] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.112037] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.112108] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.112874] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.114106] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.114206] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.114754] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.116432] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.136908] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[2.144309] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/lanqi/ros2_learning/colcon_ws/build/cpp_a_follow_turtle_pkg\n'}
+[2.160369] (cpp_a_follow_turtle_pkg) CommandEnded: {'returncode': 0}
+[2.160913] (cpp_a_follow_turtle_pkg) JobProgress: {'identifier': 'cpp_a_follow_turtle_pkg', 'progress': 'build'}
+[2.160985] (cpp_a_follow_turtle_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lanqi/ros2_learning/colcon_ws/build/cpp_a_follow_turtle_pkg', '--', '-j4', '-l4'], 'cwd': '/home/lanqi/ros2_learning/colcon_ws/build/cpp_a_follow_turtle_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('onnxruntime_DIR', '/home/lanqi/.local/'), ('USER', 'lanqi'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/lanqi/.local/lib::/home/lanqi/.mujoco/bin'), ('HOME', '/home/lanqi'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1698'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=671f7644de4d54267fac103d67d90add'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lanqi'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lanqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/lanqi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lanqi-virtual-machine:@/tmp/.ICE-unix/1698,unix/lanqi-virtual-machine:/tmp/.ICE-unix/1698'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d13a9e5e_c6f6_43dc_9b68_a8fca5c4c1a1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RDYT32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lanqi/ros2_learning/colcon_ws/build/cpp_a_follow_turtle_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=671f7644de4d54267fac103d67d90add'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.212021] (-) TimerEvent: {}
+[2.258220] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_pub.dir/src/turtles_pose_pub.cpp.o\x1b[0m\n'}
+[2.258543] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_spawner.dir/src/new_turtle_spawner.cpp.o\x1b[0m\n'}
+[2.312345] (-) TimerEvent: {}
+[2.412945] (-) TimerEvent: {}
+[2.513523] (-) TimerEvent: {}
+[2.614453] (-) TimerEvent: {}
+[2.715041] (-) TimerEvent: {}
+[2.815499] (-) TimerEvent: {}
+[2.916048] (-) TimerEvent: {}
+[3.016921] (-) TimerEvent: {}
+[3.117476] (-) TimerEvent: {}
+[3.217944] (-) TimerEvent: {}
+[3.319136] (-) TimerEvent: {}
+[3.419880] (-) TimerEvent: {}
+[3.523237] (-) TimerEvent: {}
+[3.624387] (-) TimerEvent: {}
+[3.725134] (-) TimerEvent: {}
+[3.826460] (-) TimerEvent: {}
+[3.927502] (-) TimerEvent: {}
+[4.028587] (-) TimerEvent: {}
+[4.129401] (-) TimerEvent: {}
+[4.230181] (-) TimerEvent: {}
+[4.330682] (-) TimerEvent: {}
+[4.431349] (-) TimerEvent: {}
+[4.532583] (-) TimerEvent: {}
+[4.633312] (-) TimerEvent: {}
+[4.734128] (-) TimerEvent: {}
+[4.834977] (-) TimerEvent: {}
+[4.935950] (-) TimerEvent: {}
+[5.036444] (-) TimerEvent: {}
+[5.137267] (-) TimerEvent: {}
+[5.238367] (-) TimerEvent: {}
+[5.339170] (-) TimerEvent: {}
+[5.440168] (-) TimerEvent: {}
+[5.540758] (-) TimerEvent: {}
+[5.641372] (-) TimerEvent: {}
+[5.742092] (-) TimerEvent: {}
+[5.844478] (-) TimerEvent: {}
+[5.946581] (-) TimerEvent: {}
+[6.047379] (-) TimerEvent: {}
+[6.148427] (-) TimerEvent: {}
+[6.249542] (-) TimerEvent: {}
+[6.350331] (-) TimerEvent: {}
+[6.451401] (-) TimerEvent: {}
+[6.552178] (-) TimerEvent: {}
+[6.653158] (-) TimerEvent: {}
+[6.753899] (-) TimerEvent: {}
+[6.854565] (-) TimerEvent: {}
+[6.955281] (-) TimerEvent: {}
+[7.056029] (-) TimerEvent: {}
+[7.156491] (-) TimerEvent: {}
+[7.257049] (-) TimerEvent: {}
+[7.357471] (-) TimerEvent: {}
+[7.458074] (-) TimerEvent: {}
+[7.559139] (-) TimerEvent: {}
+[7.660286] (-) TimerEvent: {}
+[7.761180] (-) TimerEvent: {}
+[7.861931] (-) TimerEvent: {}
+[7.962833] (-) TimerEvent: {}
+[8.063414] (-) TimerEvent: {}
+[8.164048] (-) TimerEvent: {}
+[8.264579] (-) TimerEvent: {}
+[8.365512] (-) TimerEvent: {}
+[8.466076] (-) TimerEvent: {}
+[8.566652] (-) TimerEvent: {}
+[8.667554] (-) TimerEvent: {}
+[8.768372] (-) TimerEvent: {}
+[8.868814] (-) TimerEvent: {}
+[8.969489] (-) TimerEvent: {}
+[9.070505] (-) TimerEvent: {}
+[9.171073] (-) TimerEvent: {}
+[9.272138] (-) TimerEvent: {}
+[9.372570] (-) TimerEvent: {}
+[9.473322] (-) TimerEvent: {}
+[9.574190] (-) TimerEvent: {}
+[9.675224] (-) TimerEvent: {}
+[9.775946] (-) TimerEvent: {}
+[9.876569] (-) TimerEvent: {}
+[9.977250] (-) TimerEvent: {}
+[10.077790] (-) TimerEvent: {}
+[10.178602] (-) TimerEvent: {}
+[10.279425] (-) TimerEvent: {}
+[10.380807] (-) TimerEvent: {}
+[10.481524] (-) TimerEvent: {}
+[10.582433] (-) TimerEvent: {}
+[10.683325] (-) TimerEvent: {}
+[10.784239] (-) TimerEvent: {}
+[10.885088] (-) TimerEvent: {}
+[10.985805] (-) TimerEvent: {}
+[11.086337] (-) TimerEvent: {}
+[11.186801] (-) TimerEvent: {}
+[11.287516] (-) TimerEvent: {}
+[11.388184] (-) TimerEvent: {}
+[11.488912] (-) TimerEvent: {}
+[11.589515] (-) TimerEvent: {}
+[11.690198] (-) TimerEvent: {}
+[11.791006] (-) TimerEvent: {}
+[11.891401] (-) TimerEvent: {}
+[11.991932] (-) TimerEvent: {}
+[12.003302] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable turtle_spawner\x1b[0m\n'}
+[12.092343] (-) TimerEvent: {}
+[12.193327] (-) TimerEvent: {}
+[12.231042] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'[ 75%] Built target turtle_spawner\n'}
+[12.294032] (-) TimerEvent: {}
+[12.394457] (-) TimerEvent: {}
+[12.495368] (-) TimerEvent: {}
+[12.595960] (-) TimerEvent: {}
+[12.696771] (-) TimerEvent: {}
+[12.797342] (-) TimerEvent: {}
+[12.898022] (-) TimerEvent: {}
+[12.998820] (-) TimerEvent: {}
+[13.099355] (-) TimerEvent: {}
+[13.200351] (-) TimerEvent: {}
+[13.301212] (-) TimerEvent: {}
+[13.401693] (-) TimerEvent: {}
+[13.502391] (-) TimerEvent: {}
+[13.603118] (-) TimerEvent: {}
+[13.703974] (-) TimerEvent: {}
+[13.804567] (-) TimerEvent: {}
+[13.905567] (-) TimerEvent: {}
+[14.006316] (-) TimerEvent: {}
+[14.107258] (-) TimerEvent: {}
+[14.208243] (-) TimerEvent: {}
+[14.309061] (-) TimerEvent: {}
+[14.409683] (-) TimerEvent: {}
+[14.510379] (-) TimerEvent: {}
+[14.611250] (-) TimerEvent: {}
+[14.711987] (-) TimerEvent: {}
+[14.812576] (-) TimerEvent: {}
+[14.913187] (-) TimerEvent: {}
+[15.013652] (-) TimerEvent: {}
+[15.114763] (-) TimerEvent: {}
+[15.215741] (-) TimerEvent: {}
+[15.316324] (-) TimerEvent: {}
+[15.417243] (-) TimerEvent: {}
+[15.517737] (-) TimerEvent: {}
+[15.618437] (-) TimerEvent: {}
+[15.719248] (-) TimerEvent: {}
+[15.820181] (-) TimerEvent: {}
+[15.921088] (-) TimerEvent: {}
+[16.021955] (-) TimerEvent: {}
+[16.123067] (-) TimerEvent: {}
+[16.223941] (-) TimerEvent: {}
+[16.324452] (-) TimerEvent: {}
+[16.425404] (-) TimerEvent: {}
+[16.526208] (-) TimerEvent: {}
+[16.626757] (-) TimerEvent: {}
+[16.728473] (-) TimerEvent: {}
+[16.829423] (-) TimerEvent: {}
+[16.930200] (-) TimerEvent: {}
+[17.040662] (-) TimerEvent: {}
+[17.159817] (-) TimerEvent: {}
+[17.261128] (-) TimerEvent: {}
+[17.362615] (-) TimerEvent: {}
+[17.465686] (-) TimerEvent: {}
+[17.574270] (-) TimerEvent: {}
+[17.677538] (-) TimerEvent: {}
+[17.780795] (-) TimerEvent: {}
+[17.887574] (-) TimerEvent: {}
+[17.998992] (-) TimerEvent: {}
+[18.105061] (-) TimerEvent: {}
+[18.210475] (-) TimerEvent: {}
+[18.311100] (-) TimerEvent: {}
+[18.411848] (-) TimerEvent: {}
+[18.512441] (-) TimerEvent: {}
+[18.613306] (-) TimerEvent: {}
+[18.714158] (-) TimerEvent: {}
+[18.814967] (-) TimerEvent: {}
+[18.915648] (-) TimerEvent: {}
+[19.016551] (-) TimerEvent: {}
+[19.117317] (-) TimerEvent: {}
+[19.218768] (-) TimerEvent: {}
+[19.319409] (-) TimerEvent: {}
+[19.420787] (-) TimerEvent: {}
+[19.522049] (-) TimerEvent: {}
+[19.622901] (-) TimerEvent: {}
+[19.723586] (-) TimerEvent: {}
+[19.824526] (-) TimerEvent: {}
+[19.925460] (-) TimerEvent: {}
+[20.026402] (-) TimerEvent: {}
+[20.127335] (-) TimerEvent: {}
+[20.228257] (-) TimerEvent: {}
+[20.329500] (-) TimerEvent: {}
+[20.430517] (-) TimerEvent: {}
+[20.534092] (-) TimerEvent: {}
+[20.571070] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_pub\x1b[0m\n'}
+[20.634453] (-) TimerEvent: {}
+[20.735480] (-) TimerEvent: {}
+[20.836541] (-) TimerEvent: {}
+[20.937455] (-) TimerEvent: {}
+[21.038694] (-) TimerEvent: {}
+[21.139480] (-) TimerEvent: {}
+[21.240065] (-) TimerEvent: {}
+[21.340909] (-) TimerEvent: {}
+[21.445417] (-) TimerEvent: {}
+[21.546134] (-) TimerEvent: {}
+[21.646860] (-) TimerEvent: {}
+[21.694428] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'[100%] Built target turtle_pub\n'}
+[21.747546] (-) TimerEvent: {}
+[21.788628] (cpp_a_follow_turtle_pkg) CommandEnded: {'returncode': 0}
+[21.819263] (cpp_a_follow_turtle_pkg) JobProgress: {'identifier': 'cpp_a_follow_turtle_pkg', 'progress': 'install'}
+[21.848218] (-) TimerEvent: {}
+[21.865514] (cpp_a_follow_turtle_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lanqi/ros2_learning/colcon_ws/build/cpp_a_follow_turtle_pkg'], 'cwd': '/home/lanqi/ros2_learning/colcon_ws/build/cpp_a_follow_turtle_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:en'), ('onnxruntime_DIR', '/home/lanqi/.local/'), ('USER', 'lanqi'), ('LC_TIME', 'en_US.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/lanqi/.local/lib::/home/lanqi/.mujoco/bin'), ('HOME', '/home/lanqi'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1698'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=671f7644de4d54267fac103d67d90add'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lanqi'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lanqi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/lanqi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lanqi-virtual-machine:@/tmp/.ICE-unix/1698,unix/lanqi-virtual-machine:/tmp/.ICE-unix/1698'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d13a9e5e_c6f6_43dc_9b68_a8fca5c4c1a1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RDYT32'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lanqi/ros2_learning/colcon_ws/build/cpp_a_follow_turtle_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=671f7644de4d54267fac103d67d90add'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[21.894208] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.897502] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_a_follow_turtle_pkg\n'}
+[21.899038] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_a_follow_turtle_pkg\n'}
+[21.903026] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/environment/ament_prefix_path.sh\n'}
+[21.903597] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/environment/ament_prefix_path.dsv\n'}
+[21.903768] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/environment/path.sh\n'}
+[21.903870] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/environment/path.dsv\n'}
+[21.904289] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/local_setup.bash\n'}
+[21.904427] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/local_setup.sh\n'}
+[21.904856] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/local_setup.zsh\n'}
+[21.906110] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/local_setup.dsv\n'}
+[21.906255] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/package.dsv\n'}
+[21.907802] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/ament_index/resource_index/packages/cpp_a_follow_turtle_pkg\n'}
+[21.909787] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/cmake/cpp_a_follow_turtle_pkgConfig.cmake\n'}
+[21.909978] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/cmake/cpp_a_follow_turtle_pkgConfig-version.cmake\n'}
+[21.910073] (cpp_a_follow_turtle_pkg) StdoutLine: {'line': b'-- Installing: /home/lanqi/ros2_learning/colcon_ws/install/cpp_a_follow_turtle_pkg/share/cpp_a_follow_turtle_pkg/package.xml\n'}
+[21.920612] (cpp_a_follow_turtle_pkg) CommandEnded: {'returncode': 0}
+[21.949191] (-) TimerEvent: {}
+[21.999959] (cpp_a_follow_turtle_pkg) JobEnded: {'identifier': 'cpp_a_follow_turtle_pkg', 'rc': 0}
+[22.003895] (-) EventReactorShutdown: {}

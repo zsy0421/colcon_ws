@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zsy/colcon_ws/src/cpp_a_follow_turtle_pkg/src/turtles_pose_pub.cpp" "CMakeFiles/turtle_pub.dir/src/turtles_pose_pub.cpp.o" "gcc" "CMakeFiles/turtle_pub.dir/src/turtles_pose_pub.cpp.o.d"
+  "/home/lanqi/ros2_learning/colcon_ws/src/cpp_a_follow_turtle_pkg/src/turtles_pose_pub.cpp" "CMakeFiles/turtle_pub.dir/src/turtles_pose_pub.cpp.o" "gcc" "CMakeFiles/turtle_pub.dir/src/turtles_pose_pub.cpp.o.d"
   )
 
 # Targets to which this target links.

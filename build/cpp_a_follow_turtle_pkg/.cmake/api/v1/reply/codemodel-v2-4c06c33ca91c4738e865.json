@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-7ed496df5912ae76dc1b.json",
+					"jsonFile" : "directory-.-c2cefab8a5601a5c0119.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -19,7 +19,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -37,7 +38,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -46,21 +48,28 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "cpp_a_follow_turtle_pkg_uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cpp_a_follow_turtle_pkg_uninstall-b237f04ea94e6f8fd172.json",
+					"jsonFile" : "target-cpp_a_follow_turtle_pkg_uninstall-fb8426fd5de5fefa8940.json",
 					"name" : "cpp_a_follow_turtle_pkg_uninstall",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "turtle2_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle2_controller-bb4192c989f72ea4443a.json",
+					"name" : "turtle2_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "turtle_pub::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-turtle_pub-7c92aac8e435faafe939.json",
+					"jsonFile" : "target-turtle_pub-83156ccd06b202cef63d.json",
 					"name" : "turtle_pub",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "turtle_spawner::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-turtle_spawner-4b5d320314f6539df5b7.json",
+					"jsonFile" : "target-turtle_spawner-24eaa66d77b4c7eec5a8.json",
 					"name" : "turtle_spawner",
 					"projectIndex" : 0
 				},
@@ -77,8 +86,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/zsy/colcon_ws/build/cpp_a_follow_turtle_pkg",
-		"source" : "/home/zsy/colcon_ws/src/cpp_a_follow_turtle_pkg"
+		"build" : "/home/lanqi/ros2_learning/colcon_ws/build/cpp_a_follow_turtle_pkg",
+		"source" : "/home/lanqi/ros2_learning/colcon_ws/src/cpp_a_follow_turtle_pkg"
 	},
 	"version" : 
 	{

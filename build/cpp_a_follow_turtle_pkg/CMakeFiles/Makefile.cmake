@@ -12,8 +12,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
   "ament_cmake_core/package.cmake"
   "ament_cmake_package_templates/templates.cmake"
-  "/home/zsy/colcon_ws/src/cpp_a_follow_turtle_pkg/CMakeLists.txt"
-  "/home/zsy/colcon_ws/src/cpp_a_follow_turtle_pkg/package.xml"
+  "/home/lanqi/ros2_learning/colcon_ws/src/cpp_a_follow_turtle_pkg/CMakeLists.txt"
+  "/home/lanqi/ros2_learning/colcon_ws/src/cpp_a_follow_turtle_pkg/package.xml"
   "/opt/ros/humble/cmake/yamlConfig.cmake"
   "/opt/ros/humble/cmake/yamlConfigVersion.cmake"
   "/opt/ros/humble/cmake/yamlTargets-none.cmake"
@@ -881,4 +881,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/cpp_a_follow_turtle_pkg_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/turtle_spawner.dir/DependInfo.cmake"
   "CMakeFiles/turtle_pub.dir/DependInfo.cmake"
+  "CMakeFiles/turtle2_controller.dir/DependInfo.cmake"
   )

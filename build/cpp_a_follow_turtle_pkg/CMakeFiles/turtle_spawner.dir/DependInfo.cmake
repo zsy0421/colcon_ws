@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zsy/colcon_ws/src/cpp_a_follow_turtle_pkg/src/new_turtle_spawner.cpp" "CMakeFiles/turtle_spawner.dir/src/new_turtle_spawner.cpp.o" "gcc" "CMakeFiles/turtle_spawner.dir/src/new_turtle_spawner.cpp.o.d"
+  "/home/lanqi/ros2_learning/colcon_ws/src/cpp_a_follow_turtle_pkg/src/new_turtle_spawner.cpp" "CMakeFiles/turtle_spawner.dir/src/new_turtle_spawner.cpp.o" "gcc" "CMakeFiles/turtle_spawner.dir/src/new_turtle_spawner.cpp.o.d"
   )
 
 # Targets to which this target links.
